@@ -17,32 +17,71 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="container">
-      <!-- nav button -->
-      <nav>
+    <header>
+      <div class="container">
+        <!-- nav button  -->
+        <nav class="header-grid">
+          <ul class="list-grid">
+            <li class="nav-link-form"><a href="#" class="nav-link">home</a></li>
+            <li class="nav-link-form">
+              <a href="#" class="nav-link">about</a>
+            </li>
+            <li class="nav-link-form"><a href="#" class="nav-link">team</a></li>
+            <li class="nav-link-form">
+              <a href="#" class="nav-link">booking</a>
+            </li>
+          </ul>
+          <svg width="150" height="150">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+          <ul class="list-grid">
+            <li class="nav-link-form"><a href="#" class="nav-link">menu</a></li>
+            <li class="nav-link-form">
+              <a href="#" class="nav-link">galerie</a>
+            </li>
+            <li class="nav-link-form">
+              <a href="#" class="nav-link">events</a>
+            </li>
+            <li class="nav-link-form">
+              <a href="#" class="nav-link">contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- hero -->
+        <p class="nav-working_hours">
+          Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+        </p>
+        <h2 class="hero-secondary-title">restaurant</h2>
+        <h1 class="hero-title">hungry people</h1>
+        <div class="hero-title-hr"></div>
         <ul>
-          <li><a href="" class="nav-link">home</a></li>
-          <li><a href="" class="nav-link">about</a></li>
-          <li><a href="" class="nav-link">team</a></li>
-          <li><a href="" class="nav-link">booking</a></li>
+          <li><button type="button" class="hero-button">book table</button></li>
+          <li><button type="button" class="hero-button">explore</button></li>
         </ul>
         <ul>
-          <li><a href="" class="nav-link">menu</a></li>
-          <li><a href="" class="nav-link">galerie</a></li>
-          <li><a href="" class="nav-link">events</a></li>
-          <li><a href="" class="nav-link">contact</a></li>
+          <li>
+            <a href="#" class="swg-social-link">
+              <!-- <svg width="40" heigth="40">
+                <use href="./images/icons.svg#icon-f"></use>
+              </svg> -->
+            </a>
+          </li>
+          <li>
+            <a href="#" class="swg-social-link">
+              <!-- <svg width="40" heigth="40">
+                <use href="./images/icons.svg#icon-t"></use>
+              </svg> -->
+            </a>
+          </li>
+          <li>
+            <a href="#" class="swg-social-link">
+              <!-- <svg width="40" heigth="40">
+                <use href="./images/icons.svg#icon-i"></use>
+              </svg> -->
+            </a>
+          </li>
         </ul>
-      </nav>
-      <!-- hero -->
-      <p class="nav-working_hours">
-        Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
-      </p>
-      <h2 class="hero-secondary-title">restaurant</h2>
-      <h1 class="hero-title">hungry people</h1>
-      <ul>
-        <li><button type="button" class="hero-button">book table</button></li>
-        <li><button type="button" class="hero-button">explore</button></li>
-      </ul>
+      </div>
     </header>
   </body>
 </html>
