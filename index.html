@@ -9,10 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link
+    <!-- <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css"
-    />
+    /> -->
     <link rel="stylesheet" href="./css/fonts.css" />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -50,39 +50,47 @@
           </ul>
         </nav>
         <!-- hero -->
-        <p class="nav-working_hours">
-          Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
-        </p>
-        <h2 class="hero-secondary-title">restaurant</h2>
-        <h1 class="hero-title">hungry people</h1>
-        <div class="hero-title-hr"></div>
-        <ul>
-          <li><button type="button" class="hero-button">book table</button></li>
-          <li><button type="button" class="hero-button">explore</button></li>
-        </ul>
-        <ul>
-          <li>
-            <a href="#" class="swg-social-link">
-              <!-- <svg width="40" heigth="40">
-                <use href="./images/icons.svg#icon-f"></use>
-              </svg> -->
-            </a>
-          </li>
-          <li>
-            <a href="#" class="swg-social-link">
-              <!-- <svg width="40" heigth="40">
-                <use href="./images/icons.svg#icon-t"></use>
-              </svg> -->
-            </a>
-          </li>
-          <li>
-            <a href="#" class="swg-social-link">
-              <!-- <svg width="40" heigth="40">
-                <use href="./images/icons.svg#icon-i"></use>
-              </svg> -->
-            </a>
-          </li>
-        </ul>
+        <div class="hero-wrapper">
+          <p class="nav-working_hours">
+            Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM
+          </p>
+          <div class="main-title-wrapper">
+            <h2 class="hero-secondary-title">restaurant</h2>
+            <h1 class="hero-title">hungry people</h1>
+            <div class="hero-title-hr"></div>
+            <ul class="hero-button-wrapper">
+              <li>
+                <button type="button" class="hero-button">book table</button>
+              </li>
+              <li>
+                <button type="button" class="hero-button">explore</button>
+              </li>
+            </ul>
+          </div>
+          <ul class="social-link-group-wrapper">
+            <li class="social-link-wrapper">
+              <a href="#" class="swg-social-link">
+                <svg width="25" height="25">
+                  <use href="./images/icons.svg#icon-f"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-wrapper">
+              <a href="#" class="swg-social-link">
+                <svg width="25" height="25">
+                  <use href="./images/icons.svg#icon-t"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-link-wrapper">
+              <a href="#" class="swg-social-link">
+                <svg width="25" height="25">
+                  <use href="./images/icons.svg#icon-i"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
   </body>
