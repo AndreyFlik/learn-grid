@@ -135,7 +135,18 @@ ul {
   margin: 0;
   list-style: none;
 }
+.bg-image-hero {
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url(../images/header-bg.jpg);
+  background-position: center;
 
+  background-size: cover;
+}
 .container {
   width: 1280px;
   margin: 0 auto;
@@ -235,6 +246,7 @@ ul {
   display: grid;
   align-items: center;
   justify-content: center;
+  margin-top: 25px;
 }
 
 .hero-wrapper {
