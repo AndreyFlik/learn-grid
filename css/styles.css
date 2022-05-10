@@ -22,7 +22,7 @@ ul {
   line-height: 18px;
   text-align: center;
   text-transform: uppercase;
-
+  padding: 10px;
   color: #ffffff;
 }
 .nav-working_hours {
@@ -102,4 +102,12 @@ ul {
   width: 130px;
   height: 100px;
   display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-svg-wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
