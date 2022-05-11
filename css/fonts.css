@@ -1,26 +1,29 @@
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/opensans-regular-webfont.woff") format("woff"),
+  src:
+    url("../fonts/opensans-regular-webfont.woff") format("woff"),
     url("../fonts/opensans-regular-webfont.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: OpenSans;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/opensans-regular-webfont.woff") format("woff"),
+  src:
+    url("../fonts/opensans-regular-webfont.woff") format("woff"),
     url("../fonts/opensans-regular-webfont.woff2") format("woff2");
 }
 
 @font-face {
-  font-family: "HelveticaNeue";
+  font-family: HelveticaNeue;
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/helveticaneue-webfont.woff") format("woff"),
+  src:
+    url("../fonts/helveticaneue-webfont.woff") format("woff"),
     url("../fonts/helveticaneue-webfont.woff2") format("woff2");
 }
