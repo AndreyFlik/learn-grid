@@ -163,7 +163,7 @@ ul {
 }
 
 .nav-link {
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
@@ -172,7 +172,7 @@ ul {
 }
 
 .nav-working-hours {
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   font-size: 13px;
@@ -181,7 +181,7 @@ ul {
 }
 
 .hero-secondary-title {
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
@@ -191,7 +191,7 @@ ul {
 }
 
 .hero-title {
-  font-family: HelveticaNeue;
+  font-family: HelveticaNeue, sans-serif;
   font-size: 94px;
   text-align: center;
   text-transform: uppercase;
@@ -202,7 +202,7 @@ ul {
 .hero-button {
   width: 200px;
   height: 60px;
-  font-family: OpenSans;
+  font-family: OpenSans, sans-serif;
   font-size: 12px;
   line-height: 20px;
   text-align: center;
