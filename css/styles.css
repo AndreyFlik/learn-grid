@@ -79,11 +79,11 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  margin: 0;
   font: inherit;
+  font-size: 100%;
   vertical-align: baseline;
 }
 
@@ -145,8 +145,7 @@ ul {
 
 .bg-image-hero {
   /* background-color: rgba(0, 0, 0, 0.6); */
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       to right,
       rgb(0 0 0 / 60%),
       rgb(0 0 0 / 60%)
@@ -158,75 +157,78 @@ ul {
 
 .container {
   width: 1280px;
-  margin: 0 auto;
   border: 2px dashed #2a2a2a;
+  margin: 0 auto;
 }
 
 .nav-link {
+  padding: 10px;
+  color: #fff;
   font-family: OpenSans, sans-serif;
   font-size: 12px;
   text-align: center;
   text-transform: uppercase;
-  padding: 10px;
-  color: #fff;
 }
 
 .nav-working-hours {
-  font-family: OpenSans, sans-serif;
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  font-size: 13px;
-  text-align: center;
   color: #fff;
+  font-family: OpenSans, sans-serif;
+  font-size: 13px;
+  grid-row: 1/5;
+  text-align: center;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
 }
 
 .hero-secondary-title {
-  font-family: OpenSans, sans-serif;
-  font-size: 12px;
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 10px;
   margin-bottom: 35px;
   color: #fff;
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  grid-column: 2/3;
+  letter-spacing: 10px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .hero-title {
+  margin-bottom: 30px;
+  color: #fff;
   font-family: HelveticaNeue, sans-serif;
   font-size: 94px;
+  grid-column: 2/3;
+  grid-row: 2/3;
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
-  margin-bottom: 30px;
 }
 
 .hero-button {
   width: 200px;
   height: 60px;
+  border: 1px solid rgb(255 255 255 / 50%);
+  background-color: inherit;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
   font-family: OpenSans, sans-serif;
   font-size: 12px;
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 5px;
-  border: 1px solid rgb(255 255 255 / 50%);
-  background-color: inherit;
-  color: #fff;
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-button:focus,
 .hero-button:hover {
-  background-color: #e8c300;
   border: none;
+  background-color: #e8c300;
 }
 
 .header-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   margin-bottom: 150px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .list-grid {
@@ -236,24 +238,26 @@ ul {
 
 .swg-social-link {
   padding: 20px;
-  border-radius: 50%;
   border: 1px solid rgb(255 255 255 / 20%);
+  border-radius: 50%;
 }
 
 .hero-title-hr {
   width: 60px;
   height: 5px;
+  margin-bottom: 30px;
   background-color: #e8c300;
   border-radius: 50px;
-  margin-bottom: 30px;
+  grid-column: 2/3;
+  justify-self: center;
 }
 
 .nav-link-form {
+  display: grid;
   width: 130px;
   height: 100px;
-  display: grid;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .nav-svg-wrapper {
@@ -265,14 +269,17 @@ ul {
 
 .hero-wrapper {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
   margin-bottom: 225px;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: auto auto auto auto auto;
 }
 
 .hero-button-wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   gap: 40px;
+  grid-column: 2/3;
+  grid-template-columns: repeat(2, 1fr);
+  justify-self: center;
 }
 
 .main-title-wrapper {
@@ -289,9 +296,11 @@ ul {
 
 .social-link-group-wrapper {
   display: grid;
+  align-content: center;
+  align-items: center;
   justify-content: end;
   gap: 20px;
-  align-items: center;
+  grid-column: 3/4;
+  grid-row: 1/5;
   justify-items: center;
-  align-content: center;
 }
