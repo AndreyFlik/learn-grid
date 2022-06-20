@@ -133,9 +133,9 @@ a {
   text-decoration: none;
 }
 
-body {
+/* body {
   background-color: grey;
-}
+} */
 
 ul {
   padding: 0;
@@ -301,4 +301,13 @@ ul {
   grid-column: 3/4;
   grid-row: 1/5;
   justify-items: center;
+}
+
+.section {
+  padding: 100px 0;
+}
+.about-us-wrapper {
+  display: grid;
+  grid-template-columns: 600px 475px;
+  column-gap: 80px;
 }
